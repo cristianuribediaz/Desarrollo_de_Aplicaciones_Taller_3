@@ -1,4 +1,4 @@
-</div> <!--Fin Area Contenido-->
+</div> <!--Fin Area Contenio-->
 
 <footer class="Container style="background-color: #caced1;">
     <!-- Grid container -->
