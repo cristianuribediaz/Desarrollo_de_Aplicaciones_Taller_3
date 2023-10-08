@@ -3,5 +3,6 @@
 ?>
 
 <?php
-    require_once('Views\templates\footer.php');
+
+    require_once('Views\templates\foote.php');
 ?>
