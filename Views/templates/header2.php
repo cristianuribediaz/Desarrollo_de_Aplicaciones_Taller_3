@@ -27,16 +27,16 @@
               <a class="nav-link active" aria-current="page" href="../index.php">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="Views/AgregarLibro.php">Ingresar Libro</a>
+              <a class="nav-link active" aria-current="page" href="../Views/AgregarLibro.php">Ingresar Libro</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="Views/AgregarAutor.php">Ingresar Autor</a>
+              <a class="nav-link active" aria-current="page" href="../Views/AgregarAutor.php">Ingresar Autor</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="Views/AgregarEditorial.php">Ingresar Editorial</a>
+              <a class="nav-link active" aria-current="page" href="../Views/AgregarEditorial.php">Ingresar Editorial</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="Views/AgregarUsuario.php">Ingresar Usuario</a>
+              <a class="nav-link active" aria-current="page" href="../Views/AgregarUsuario.php">Ingresar Usuario</a>
             </li>
             
           </ul>
