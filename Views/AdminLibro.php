@@ -2,7 +2,29 @@
     require_once("templates/header2.php");
 ?>
 <div class="table-responsive">
-  <br>    
+<br>  <br>  
+    <div class="row">
+      <h6>Reporte de los libros ingresados al sistema en fechas determinadas</h6>
+        <div class="col-md-12 text-center">
+          <form action="../Views/DescargarReporte_x_libro.php" method="post" accept-charset="utf-8">
+            <div class="row">
+              <div class="col">
+                <input type="date" name="fecha_ingreso" class="form-control"  placeholder="Fecha de Inicio" required>
+              </div>
+              <div class="col">
+                <input type="date" name="fechaFin" class="form-control" placeholder="Fecha Final" required>
+              </div>
+              <div class="col">
+                  <button type="submit" class="btn btn-danger mb-2">Descargar Reporte</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="col-md-12 text-center mt-5">     
+          <span id="loaderFiltro">  </span>
+        </div>
+      </div>       
   <h2>Tabla de Libros</h2>
   <br>
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#agregarLibro">Agregar Libro</button>
